@@ -32,7 +32,7 @@
 - Existem dois tipos: php.ini-development e php.ini-production
 - Escolher um e renomear para php.ini
 
-#### echo 
+#### echo: 
 - Exibe algo na tela.
 
 <pre>
@@ -46,6 +46,7 @@ echo "Olá mundo!";
  * Comentário de várias linhas.
  */
 </pre>
+
 #### Terminal Interativo: php -a
 - Executar tudo que o PHP oferece direto no terminal.
 - Para sair: quit
