@@ -32,7 +32,7 @@
 - Existem dois tipos: php.ini-development e php.ini-production
 - Escolher um e renomear para php.ini
 
-#####echo: 
+##### echo: 
 - Exibe algo na tela.
 
 <pre>
