@@ -175,3 +175,13 @@ echo "Descobrindo o tipo: " . gettype($verdadeiro) . " e " . gettype($falso);
 https://floating-point-gui.de/
 
 #### 3. Trabalhando com Texto:
+
+#### Tipo String:
+- Duas formas de concatenar:
+
+<pre>
+$idade = 28;
+echo 'Minha idade é ' . $idade . ' anos.' . "\n";
+echo "Minha idade é $idade anos";
+</pre>
+
