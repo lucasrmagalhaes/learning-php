@@ -2,7 +2,7 @@
 
 ## 1. O que é PHP?
 
-##### Pergunta:
+##### Pergunta - Linguagem Interpretada:
 - Falando um pouco sobre PHP vimos que ele é uma linguagem de programação interpretada. O que isso quer dizer?
 
 ##### Resposta:
@@ -25,10 +25,47 @@
 - Após realizar esses procedimentos, já é possível testar no terminal
 - Abrir o terminar e rodar o comando: php -v
 
-##### php.ini
-- Existem dois tipos:
-php.ini-development
-php.ini-production
+##### Instalação do PHP - Linux:
+-  sudo apt install php
 
-- Escolher um e renomear:
-php.ini
+##### php.ini
+- Existem dois tipos: php.ini-development e php.ini-production
+- Escolher um e renomear para php.ini
+
+##### echo 
+- Exibe algo na tela.
+##### Terminal Interativo: php -a
+- Executar tudo que o PHP oferece direto no terminal.
+- Para sair: quit
+- Limpar a tela: cls
+##### ;
+- Final da linha de comando, lembrar de colocar o ;
+
+##### Primeiro arquivo PHP
+- Rodar um arquivo no terminal: php ola-mundo.php
+
+##### Pergunta - Terminal Interativo:
+- Como iniciar e parar o terminal interativo do PHP?
+
+##### Resposta:
+- php -a para iniciar e quit para parar
+
+##### Explicação:
+- Com o php -a nós iniciamos o terminal interativo, onde podemos digitar código PHP que será executado em tempo real. 
+- Quando desejarmos sair, basta executar o comando quit.
+
+##### IDE:
+- Recomendadas: Visual Studio Code e PhpStorm.
+
+##### Pergunta - Arquivo PHP:
+- O que um arquivo PHP precisa ter para ser válido?
+
+##### Resposta:
+- Precisa começar com <?php
+
+##### Explicação:
+- Lembre-se que o espaço (ou nova linha) após <?php é obrigatório. 
+- Esta informa para o interpretador do PHP que o código que virá deve ser lido e interpretado.
+
+## 2. Variáveis e Tipos:
+
