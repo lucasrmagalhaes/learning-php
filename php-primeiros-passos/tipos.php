@@ -11,3 +11,5 @@ echo "Descobrindo o tipo: " . gettype($texto) . "\n";
 
 $verdadeiro = true;
 $falso = false;
+
+echo "Descobrindo o tipo: " . gettype($verdadeiro) . " e " . gettype($falso);
