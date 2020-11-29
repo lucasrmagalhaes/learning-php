@@ -69,3 +69,20 @@
 
 ## 2. Variáveis e Tipos:
 
+##### O que são variáveis?
+- Guardam um valor
+- EX.: $exemplo = "Minha variável";
+
+##### Pergunta - Variáveis:
+- Qual a melhor definição do termo variável?
+
+##### Resposta:
+- Um espaço na RAM onde através de um nome, podemos manipular e acessar algum valor.
+
+##### Explicação:
+- Além disso, como o próprio nome já diz, variáveis podem variar, ou seja, seus valores podem ser alterados durante a execução do programa.
+
+##### Operações Matemáticas:
+<pre>
+
+</pre>
