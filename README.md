@@ -84,5 +84,45 @@
 
 ##### Operações Matemáticas:
 <pre>
+<?php
 
+$numero1 = 10;
+$numero2 = 2;
+
+$soma = $numero1 + $numero2;
+$subtracao = $numero1 - $numero2;
+$multiplicacao = $numero1 * $numero2;
+$divisao = $numero1 / $numero2;
+$doisAoCubo = $numero1 ** $numero2;
+$restoDaDivisao = $numero1 % $numero2;
+
+echo "Soma: " . $soma . "\n"; 
+echo "Subtração: " . $subtracao . "\n";
+echo "Multiplicação: " . $multiplicacao . "\n";
+echo "Divisão: " . $divisao . "\n";
+echo "Dois ao Cubo: " . $doisAoCubo . "\n";
+echo "Resto da Divisão: " . $restoDaDivisao . "\n";
 </pre>
+
+##### Pergunta - Matemática com PHP:
+- É mais do que comum nós precisarmos realizar operações matemáticas durante a execução de nosso programa. 
+- Quais os operadores matemáticos disponíveis no PHP?
+
+##### Resposta:
+- Soma ( + )
+- Subtração ( - )
+- Multiplicação) ( * ) 
+- Divisão ( / )
+- Exponenciação ( ** ) 
+- Módulo ou Resto da Divisão ( % ) 
+
+##### Explicação:
+- Com estes operadores nós conseguimos realizar as operações matemáticas com PHP.
+
+##### Tipos:
+- Linguagem Dinamicamente Tipada. 
+- Consegue entender qual o tipo de dados que ele vai utilizar, dependendo do valor.  
+- Número Inteiro: integer
+- Números Decimais: float e double
+- Texto: string
+- Verdadeiro e Falso: true e false
