@@ -185,3 +185,22 @@ echo 'Minha idade é ' . $idade . ' anos.' . "\n";
 echo "Minha idade é $idade anos";
 </pre>
 
+#### Pergunta - Variáveis em Textos:
+- Qual das alternativas a seguir NÃO exibirá o valor da variável $idade corretamente?
+
+#### Resposta:
+- echo ‘Eu tenho $idade anos’;
+#### Explicação:
+- Esta linha exibiria o texto Eu tenho $idade anos, sem interpretar o valor da variável $idade.
+
+#### Caracteres Especiais:
+
+<pre>
+echo "Quebrando a linha de forma mais legível" . PHP_EOL;
+echo "Quebrando a linha!\n";
+echo "\tTab - Espaçamento";
+
+/**
+ * https://www.php.net/manual/pt_BR/language.types.string.php
+ */
+</pre>
