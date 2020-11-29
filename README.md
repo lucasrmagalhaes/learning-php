@@ -3,8 +3,7 @@
 <details>
     <summary>Primeiros Passos com a Linguagem</summary>
 
-<details>
-    <summary>O que é PHP?</summary>
+#### 1. O que é PHP?
 
 ##### Pergunta - Linguagem Interpretada:
 - Falando um pouco sobre PHP vimos que ele é uma linguagem de programação interpretada. O que isso quer dizer?
@@ -82,8 +81,6 @@ echo "Olá mundo!";
 ##### Explicação:
 - Lembre-se que o espaço (ou nova linha) após <?php é obrigatório. 
 - Esta informa para o interpretador do PHP que o código que virá deve ser lido e interpretado.
-
-</details>
 
 #### 2. Variáveis e Tipos:
 
