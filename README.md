@@ -1,6 +1,6 @@
 ## Aprendendo PHP:
 
-<details><summary> Primeiros Passos com a Linguagem </summary><blockquote>
+<details open><summary> Primeiros Passos com a Linguagem </summary><blockquote>
 
 <details><summary> 1. O que é PHP? </summary><blockquote>
 
