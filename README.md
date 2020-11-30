@@ -2,8 +2,6 @@
 
 <details><summary> Primeiros Passos com a Linguagem </summary>
 
-[TOC]
-
 ## 1. O que é PHP?
 
 ##### Pergunta - Linguagem Interpretada:
