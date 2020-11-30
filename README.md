@@ -1,9 +1,9 @@
 ## Aprendendo PHP:
 
 <details>
-    <summary>Primeiros Passos com a Linguagem</summary>
+    <summary>Primeiros Passos com a Linguagem</summary><blockquote>
 
-#### 1. O que é PHP?
+<details><summary> O que é PHP? </summary><blockquote>
 
 ##### Pergunta - Linguagem Interpretada:
 - Falando um pouco sobre PHP vimos que ele é uma linguagem de programação interpretada. O que isso quer dizer?
@@ -81,6 +81,8 @@ echo "Olá mundo!";
 ##### Explicação:
 - Lembre-se que o espaço (ou nova linha) após <?php é obrigatório. 
 - Esta informa para o interpretador do PHP que o código que virá deve ser lido e interpretado.
+
+</blockquote></details>
 
 #### 2. Variáveis e Tipos:
 
@@ -218,4 +220,4 @@ echo "\tTab - Espaçamento";
 - Alguns sistemas operacionais utilizam o caracter \n para representar uma quebra de linha. Outros, utilizam \r. 
 - Já o Windows utiliza ambos (\r\n). Utilizando a constante PHP_EOL nos é abstraída esta diferença e podemos deixar nosso código funcionando de forma igual em todas as plataformas.
 
-</details>
+</blockquote></details>
