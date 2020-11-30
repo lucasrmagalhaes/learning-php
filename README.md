@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/lucasrmagalhaes/learning-php/blob/main/php.png" alt="DIO" width=300 height=150>
+</p>
+
 <details>
     <summary>Introdução ao PHP: Primeiros Passos com a Linguagem</summary>
 
