@@ -4,8 +4,8 @@
 
 <details><summary> 1. O que é PHP? </summary><blockquote>
 
-##### Pergunta - Linguagem Interpretada:
-- Falando um pouco sobre PHP vimos que ele é uma linguagem de programação interpretada. O que isso quer dizer?
+<p>Pergunta - Linguagem Interpretada:
+- Falando um pouco sobre PHP vimos que ele é uma linguagem de programação interpretada. O que isso quer dizer?</p>
 
 ##### Resposta:
 - Que não é necessário executar um comando para tornar o código executável a cada alteração.
