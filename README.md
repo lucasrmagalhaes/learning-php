@@ -5,9 +5,7 @@
 <details>
     <summary>Introdução ao PHP: Primeiros Passos com a Linguagem</summary>
 
-<p align="center">
-  <h1>O que é PHP?</h1>
-</p>
+<h1 align="center">O que é PHP?</h1>
 
 ### Instalação do PHP no Windows
 - Acessar o site: https://www.php.net
