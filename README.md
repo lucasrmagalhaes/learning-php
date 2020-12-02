@@ -140,47 +140,47 @@ echo "\tTab - Espaçamento";
 ### Linguagem Interpretada
 - Falando um pouco sobre PHP vimos que ele é uma linguagem de programação interpretada. O que isso quer dizer?
 
-#### Resposta
+***Resposta***
 - Que não é necessário executar um comando para tornar o código executável a cada alteração.
 
-##### Explicação
+***Explicação***
 - O código PHP da forma como escrevemos é interpretado por um programa (chamado de, pasmem, PHP), que executa suas instruções.
 - Na prática, o PHP até transforma o código que escrevemos em um outro tipo de código (bytecode) legível pelo interpretador antes de começar a executar, mas isso é um assunto um pouco mais avançado.
 
 ### Terminal Interativo
 - Como iniciar e parar o terminal interativo do PHP?
 
-#### Resposta
+***Resposta***
 - php -a para iniciar e quit para parar
 
-##### Explicação
+***Explicação***
 - Com o php -a nós iniciamos o terminal interativo, onde podemos digitar código PHP que será executado em tempo real. 
 - Quando desejarmos sair, basta executar o comando quit.
 
 ### Arquivo PHP
 - O que um arquivo PHP precisa ter para ser válido?
 
-#### Resposta
+***Resposta***
 - Precisa começar com <?php
 
-##### Explicação
+***Explicação***
 - Lembre-se que o espaço (ou nova linha) após <?php é obrigatório. 
 - Esta informa para o interpretador do PHP que o código que virá deve ser lido e interpretado.
 
 ### Variáveis
 - Qual a melhor definição do termo variável?
 
-#### Resposta
+***Resposta***
 - Um espaço na RAM onde através de um nome, podemos manipular e acessar algum valor.
 
-##### Explicação
+***Explicação***
 - Além disso, como o próprio nome já diz, variáveis podem variar, ou seja, seus valores podem ser alterados durante a execução do programa.
 
 ### Matemática com PHP
 - É mais do que comum nós precisarmos realizar operações matemáticas durante a execução de nosso programa. 
 - Quais os operadores matemáticos disponíveis no PHP?
 
-#### Resposta
+***Resposta***
 - Soma ( + )
 - Subtração ( - )
 - Multiplicação) ( * )
@@ -188,38 +188,38 @@ echo "\tTab - Espaçamento";
 - Exponenciação ( ** )
 - Módulo ou Resto da Divisão ( % )
 
-##### Explicação
+***Explicação***
 - Com estes operadores nós conseguimos realizar as operações matemáticas com PHP.
 
 ### Tipos
 - Quais são os possíveis tipos de dados que uma variável PHP pode armazenar?
 
-#### Resposta
+***Resposta***
 - Inteiro (integer)
 - Decimal (float ou double)
 - Booleano (verdadeiro ou falso)
 - String (texto)
 
-##### Explicação
+***Explicação***
 - Estes são os tipos primitivos do PHP.
 - Há tipos mais complexos.
 
 ### Variáveis em Textos
 - Qual das alternativas a seguir NÃO exibirá o valor da variável $idade corretamente?
 
-#### Resposta
+***Resposta***
 - echo ‘Eu tenho $idade anos’;
 
-##### Explicação
+***Explicação***
 - Esta linha exibiria o texto Eu tenho $idade anos, sem interpretar o valor da variável $idade.
 
 ### Quebra de Linha
 - Por que utilizar PHP_EOL?
 
-#### Resposta
+***Resposta***
 - Porque esta constante leva em consideração os diferentes caracteres utilizados para quebrar linha em diferentes sistemas operacionais.
 
-##### Explicação
+***Explicação***
 - Alguns sistemas operacionais utilizam o caracter \n para representar uma quebra de linha. Outros, utilizam \r.
 - Já o Windows utiliza ambos (\r\n). Utilizando a constante PHP_EOL nos é abstraída esta diferença e podemos deixar nosso código funcionando de forma igual em todas as plataformas.
 </details>
