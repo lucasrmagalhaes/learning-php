@@ -178,7 +178,9 @@ echo "\tTab - Espaçamento";
   O código PHP da forma como escrevemos é interpretado por um programa (chamado de, pasmem, PHP), que executa suas instruções. <br />
   Na prática, o PHP até transforma o código que escrevemos em um outro tipo de código (bytecode) legível pelo interpretador antes de começar a executar, mas isso é um assunto um pouco mais avançado.
 </p>
+
 <hr />
+
 <h5>Terminal Interativo</h5>
 <p>Como iniciar e parar o terminal interativo do PHP?</p>
 <h5>Resposta</h5>
@@ -188,7 +190,9 @@ echo "\tTab - Espaçamento";
   Com o php -a nós iniciamos o terminal interativo, onde podemos digitar código PHP que será executado em tempo real. <br />
   Quando desejarmos sair, basta executar o comando quit.
 </p>
+
 <hr />
+
 <h5>Arquivo PHP</h5>
 <p>O que um arquivo PHP precisa ter para ser válido?</p>
 <h5>Resposta</h5>
@@ -198,14 +202,18 @@ echo "\tTab - Espaçamento";
   Lembre-se que o espaço (ou nova linha) após <?php é obrigatório. <br />
   Esta informa para o interpretador do PHP que o código que virá deve ser lido e interpretado.
 </p>
+
 <hr />
+
 <h5>Variáveis</h5>
 <p>Qual a melhor definição do termo variável?</p>
 <h5>Resposta</h5>
 <p>Um espaço na RAM onde através de um nome, podemos manipular e acessar algum valor.</p>
 <h5>Explicação</h5>
 <p>Além disso, como o próprio nome já diz, variáveis podem variar, ou seja, seus valores podem ser alterados durante a execução do programa.</p>
+
 <hr />
+
 <h5>Matemática com PHP</h5>
 <p>
   É mais do que comum nós precisarmos realizar operações matemáticas durante a execução de nosso programa. <br />
@@ -222,7 +230,9 @@ echo "\tTab - Espaçamento";
 </ul>
 <h5>Explicação</h5>
 <p>Com estes operadores nós conseguimos realizar as operações matemáticas com PHP.</p>
+
 <hr />
+
 <h5>Tipos</h5>
 <p>Quais são os possíveis tipos de dados que uma variável PHP pode armazenar?</p>
 <h5>Resposta</h5>
@@ -237,7 +247,9 @@ echo "\tTab - Espaçamento";
   Estes são os tipos primitivos do PHP. <br />
   Há tipos mais complexos.
 </p>
+
 <hr />
+
 <h5>Variáveis em Textos</h5>
 <p>Qual das alternativas a seguir NÃO exibirá o valor da variável $idade corretamente?</p>
 <h5>Resposta</h5>
@@ -254,5 +266,7 @@ echo "\tTab - Espaçamento";
   Alguns sistemas operacionais utilizam o caracter \n para representar uma quebra de linha. Outros, utilizam \r. <br />
   Já o Windows utiliza ambos (\r\n). Utilizando a constante PHP_EOL nos é abstraída esta diferença e podemos deixar nosso código funcionando de forma igual em todas as plataformas.
 </p>
+
 <hr />
+
 </details>
