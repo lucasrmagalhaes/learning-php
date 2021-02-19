@@ -128,45 +128,43 @@ echo "\tTab - Espaçamento";
  */
 </pre>
 
-<details>
-  <summary><strong>Perguntas</strong></summary>
-    <br />
-    <hr />
-    ### Linguagem Interpretada
-    - Falando um pouco sobre PHP vimos que ele é uma linguagem de programação interpretada. O que isso quer dizer?
-
-    ***Resposta***
-    - Que não é necessário executar um comando para tornar o código executável a cada alteração.
-
-    ***Explicação***
-    - O código PHP da forma como escrevemos é interpretado por um programa (chamado de, pasmem, PHP), que executa suas instruções.
-    - Na prática, o PHP até transforma o código que escrevemos em um outro tipo de código (bytecode) legível pelo interpretador antes de começar a executar, mas isso é um assunto um pouco mais avançado.
-    <hr />
-    ### Terminal Interativo
-    - Como iniciar e parar o terminal interativo do PHP?
-
-    ***Resposta***
-    - php -a para iniciar e quit para parar
-
-    ***Explicação***
-    - Com o php -a nós iniciamos o terminal interativo, onde podemos digitar código PHP que será executado em tempo real. 
-    - Quando desejarmos sair, basta executar o comando quit.
-    <hr />
-    ### Arquivo PHP
-    - O que um arquivo PHP precisa ter para ser válido?
-
-    ***Resposta***
-    - Precisa começar com <?php
-
-    ***Explicação***
-    - Lembre-se que o espaço (ou nova linha) após <?php é obrigatório. 
-    - Esta informa para o interpretador do PHP que o código que virá deve ser lido e interpretado.
-    <hr />
-    ### Variáveis
-    - Qual a melhor definição do termo variável?
-
-    ***Resposta***
-    - Um espaço na RAM onde através de um nome, podemos manipular e acessar algum valor.
+<details><summary><strong>Perguntas</strong></summary>
+  <br />
+  <hr />
+  <h5>Linguagem Interpretada</h5>
+  <p>Falando um pouco sobre PHP vimos que ele é uma linguagem de programação interpretada. O que isso quer dizer?</p>
+  <h5>Resposta</h5>
+  <p>Que não é necessário executar um comando para tornar o código executável a cada alteração.</p>
+  <h5>Explicação</h5>
+  <p>
+    O código PHP da forma como escrevemos é interpretado por um programa (chamado de, pasmem, PHP), que executa suas instruções. <br />
+    Na prática, o PHP até transforma o código que escrevemos em um outro tipo de código (bytecode) legível pelo interpretador antes de começar a executar, mas isso é um assunto um pouco mais avançado.
+  </p>
+  <hr />
+  <h5>Terminal Interativo</h5>
+  <p>Como iniciar e parar o terminal interativo do PHP?</p>
+  <h5>Resposta</h5>
+  <p>php -a para iniciar e quit para parar</p>
+  <h5>Explicação</h5>
+  <p>
+    Com o php -a nós iniciamos o terminal interativo, onde podemos digitar código PHP que será executado em tempo real. <br />
+    Quando desejarmos sair, basta executar o comando quit.
+  </p>
+  <hr />
+  <h5>Arquivo PHP</h5>
+  <p>O que um arquivo PHP precisa ter para ser válido?</p>
+  <h5>Resposta</h5>
+  <p>Precisa começar com <?php</p>
+  <h5>Explicação</h5>
+  <p>
+    Lembre-se que o espaço (ou nova linha) após <?php é obrigatório. <br />
+    Esta informa para o interpretador do PHP que o código que virá deve ser lido e interpretado.
+  </p>
+  <hr />
+  <h5>Variáveis</h5>
+  <p>Qual a melhor definição do termo variável?</p>
+  <h5>Resposta</h5>
+  <p>Um espaço na RAM onde através de um nome, podemos manipular e acessar algum valor.</p>
 
     ***Explicação***
     - Além disso, como o próprio nome já diz, variáveis podem variar, ou seja, seus valores podem ser alterados durante a execução do programa.
@@ -218,4 +216,4 @@ echo "\tTab - Espaçamento";
     - Alguns sistemas operacionais utilizam o caracter \n para representar uma quebra de linha. Outros, utilizam \r.
     - Já o Windows utiliza ambos (\r\n). Utilizando a constante PHP_EOL nos é abstraída esta diferença e podemos deixar nosso código funcionando de forma igual em todas as plataformas.
     <hr />
- </details>
+</details>
