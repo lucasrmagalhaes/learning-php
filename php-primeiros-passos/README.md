@@ -57,30 +57,40 @@ echo "Olá mundo!";
     <li>Inicialização: php -a</li>
     <li>Executar tudo que o PHP oferece direto no terminal.</li>
     <li>Para sair: quit</li>
-    </li>Limpar a tela: cls</li>
+    <li>Limpar a tela: cls</li>
   </ul>
 </details>
 
-### Ponto e Vírgula
-- Final da linha de comando, lembrar de colocar o ;
+<details>
+  <summary><strong>Ponto e Vírgula</strong></summary>
+  <br />
+  <p>Final da linha de comando, lembrar de colocar o ;</p>
+</details>
 
-### Primeiro arquivo PHP
-- Rodar um arquivo no terminal: php ola-mundo.php
+<details>
+  <summary><strong>Primeiro arquivo PHP</strong></summary>
+  <br />
+  <p>Rodar um arquivo no terminal: php ola-mundo.php</p>
+</details>
 
-### IDE
-- Recomendadas: Visual Studio Code e PhpStorm.
+<details>
+  <summary><strong>IDE</strong></summary>
+  <br />
+  <p>Recomendadas: Visual Studio Code e PhpStorm.</p>
+</details>
 
-## Variáveis e Tipos
-
-### O que são variáveis?
-- Guardam um valor.
-
+<details>
+  <summary><strong>Variáveis e Tipos</strong></summary>
+  
+<br />
+<p><strong>O que são variáveis?</strong> Guardam um valor.</p>
+  
 <pre>
 $idade = 28;
 echo $idade;
 </pre>
 
-### Operações Matemáticas
+<h5>Operações Matemáticas</h5>
 
 <pre>
 $numero1 = 10;
@@ -101,13 +111,14 @@ echo "Dois ao Cubo: " . $doisAoCubo . "\n";
 echo "Resto da Divisão: " . $restoDaDivisao . "\n";
 </pre>
 
-### Tipos
-- Linguagem Dinamicamente Tipada.
-- Consegue entender qual o tipo de dados que ele vai utilizar, dependendo do valor.  
-- Número Inteiro: integer
-- Números Decimais: float e double
-- Texto: string
-- Booleano: true e false
+<h5>Tipos</h5>
+  <ul>
+    <li>Linguagem Dinamicamente Tipada.</li>
+    <li>Consegue entender qual o tipo de dados que ele vai utilizar, dependendo do valor.</li>
+    <li>Número Inteiro: integer</li>
+    <li>Números Decimais: float e double</li>
+    <li>Texto: string</li>
+    <li>Booleano: true e false</li>
 
 <pre>
 $idade = 28;
@@ -125,18 +136,18 @@ $falso = false;
 echo "Descobrindo o tipo: " . gettype($verdadeiro) . " e " . gettype($falso);
 </pre>
 
-### [Problema muito famoso (com qualquer linguagem)](https://floating-point-gui.de/ "Problema muito famoso (com qualquer linguagem)")
-
-## Trabalhando com Texto
-
-### Tipo String
-- Duas formas de concatenar:
+<h5>Trabalhando com Texto - Tipo String</h5>
+<p>Duas formas de concatenar:</p>
 
 <pre>
 $idade = 28;
 echo 'Minha idade é ' . $idade . ' anos.' . "\n";
 echo "Minha idade é $idade anos";
 </pre>
+
+<p><a href="https://floating-point-gui.de/">Problema muito famoso (com qualquer linguagem)</a></p>
+
+</details>
 
 <details>
   <summary><strong>Caracteres Especiais</strong></summary>
