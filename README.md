@@ -8,7 +8,7 @@
   <li><strong>Frameworks: </strong><a href="https://laravel.com/">Laravel</a>, <a href="https://symfony.com/">Symfony</a>, <a href="https://framework.zend.com/">Zend</a>, <a href="https://www.codeigniter.com/">CodeIgniter</a> e <a href="https://cakephp.org/">CakePHP</a></li> 
   <li><strong>Micro Frameworks: </strong><a href="https://lumen.laravel.com/">Lumen</a>, <a href="https://www.slimframework.com/">Slim</a> e <a href="https://silex.symfony.com/">Silex Symfony</a></li>
   <li><strong>PSRs: </strong><a href="https://www.php-fig.org/">PHP-FIG</a></li>
-<ul>
+</ul>
 
 <hr />
 
