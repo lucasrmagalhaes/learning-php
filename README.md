@@ -13,6 +13,12 @@
 
 <hr />
 
+<p>
+  <a href="https://getcomposer.org/">Composer</a>
+</p>
+
+<hr />
+
 <h5 align="left">Cursos:</h5>
 
 <ol>

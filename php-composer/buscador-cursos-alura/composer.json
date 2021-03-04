@@ -1,0 +1,13 @@
+{
+    "name": "lucasrmagalhaes/buscador-cursos-alura",
+    "description": "Projeto que busca os cursos no site da Alura.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Magalhães",
+            "email": "lucasdarosa.ti@gmail.com"
+        }
+    ],
+    "require": {}
+}
