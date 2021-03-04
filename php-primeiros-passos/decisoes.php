@@ -16,10 +16,3 @@ if ($idade >= 18) {
 
 echo PHP_EOL;
 echo "Adeus!";
-
-// Operador Ternário
-$variavel = $condicao ? $valorSeVerdadeiro : $valorSeFalso;
-
-$idade = 15;
-$mensagem = $idade < 18 ? ‘Você é menor de idade’ : ‘Você é maior de idade’;
-echo $mensagem;
