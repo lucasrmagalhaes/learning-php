@@ -9,13 +9,8 @@
   <li><strong>Micro Frameworks:</strong> <a href="https://lumen.laravel.com/">Lumen</a>, <a href="https://www.slimframework.com/">Slim</a> e <a href="https://silex.symfony.com/">Silex Symfony</a></li>
   <li><strong>PSRs:</strong> <a href="https://www.php-fig.org/">PHP-FIG</a></li>
   <li><strong>Versionamento Semântico:</strong> <a href="https://semver.org/lang/pt-BR/">semver.org</a></li>
+  <li><strong>Gerenciador de Dependências:</strong> <a href="https://getcomposer.org/">Composer</a></li>
 </ul>
-
-<hr />
-
-<p>
-  <a href="https://getcomposer.org/">Composer</a>
-</p>
 
 <hr />
 
