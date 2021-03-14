@@ -1,6 +1,11 @@
 <p align="center">
   <a href="https://www.php.net/">
-    <img src="https://github.com/lucasrmagalhaes/learning-php/blob/main/php.png" alt="DIO" width=300 height=150>
+    <img 
+      src="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-primeiros-passos/img/php.png" 
+      title="PHP" 
+      alt="PHP" 
+      width=300 
+      height=150>
   </a>
 </p>
 
