@@ -15,5 +15,15 @@
     <li><a href="#">Várias Informações</a></li>
     <li><a href="#">Foreach</a></li>
     <li><a href="#">Adicionando Dados</a></li>
+    <li><a href="#">Tipos nas Chaves</a></li>
+</details>
+
+<details>
+  <summary><strong>Criando Funções</strong></summary>
+  <br/>
+  <ul>
+    <li><a href="#">#</a></li>
+    <li><a href="#">#</a></li>
+    <li><a href="#">#</a></li>
     <li><a href="#">#</a></li>
 </details>
