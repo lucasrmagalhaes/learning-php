@@ -29,5 +29,6 @@
   <summary><strong>Interpolação e Require</strong></summary>
   <br/>
   <ul>
-    <li><a href="#">#</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/banco.php">Banco</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/funcoes.php">Funções</a></li>
 </details>
