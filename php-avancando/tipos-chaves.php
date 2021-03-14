@@ -4,7 +4,7 @@
 
 $array = [
     1 => 'a', // 1
-    '1' => 'b', // string convertido par 1
+    '1' => 'b', // string convertido para 1
     1.5 => 'c', // float convertido para 1
     true => 'd' // true = 1
 ];
