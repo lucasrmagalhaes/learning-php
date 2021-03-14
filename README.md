@@ -14,7 +14,7 @@
 
 <hr />
 
-<h5 align="left">Cursos:</h5>
+<h4 align="left">Cursos:</h4>
 
 <ol>
   <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-primeiros-passos/README.md">Introdução ao PHP: Primeiros Passos com a Linguagem.</a></li>

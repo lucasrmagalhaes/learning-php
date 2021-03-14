@@ -6,6 +6,7 @@
   <ul>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/listas.php">Lista de Dados</a></li>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/loop-lista.php">Loops em Listas</a></li>
+  </ul>
 </details>
 
 <details>
@@ -16,6 +17,7 @@
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/foreach.php">Foreach</a></li>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/adicionando-dados.php">Adicionando Dados</a></li>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/tipos-chaves.php">Tipos nas Chaves</a></li>
+  </ul>
 </details>
 
 <details>
@@ -23,6 +25,7 @@
   <br/>
   <ul>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/banco.php">Banco - Saque e Depósito</a></li>
+  </ul>
 </details>
 
 <details>
@@ -31,6 +34,7 @@
   <ul>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/banco.php">Banco</a></li>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/funcoes.php">Funções</a></li>
+  </ul>
 </details>
 
 <details>
@@ -40,4 +44,15 @@
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/funcoes.php">mb_strtoupper e lower</a></li>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/banco.php">List</a></li>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/banco.php">Unset</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Introdução do PHP na Web</strong></summary>
+  <br/>
+  <ul>
+    <li><strong>Rodando o localhost: </strong>php -S  localhost:8080</li>
+    <li><strong>Abre uma nova aba, mostrando o código fonte: </strong>Ctrl + U</li>
+    <li><a href="#">#</a></li>
+  </ul>
 </details>
