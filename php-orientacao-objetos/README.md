@@ -4,6 +4,6 @@
   <summary><strong>Problemas da Programação Procedural</strong></summary>
   <br/>
   <ul>
-    <li><a href="#">Definição explícita de dados</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/src/conta.php">Definição explícita de dados</a></li>
   </ul>
 </details>

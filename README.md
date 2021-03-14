@@ -24,5 +24,5 @@
 <ol>
   <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-primeiros-passos/README.md">Introdução ao PHP: Primeiros Passos com a Linguagem.</a></li>
   <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/README.md">Avançando com PHP: Arrays, Strings, Função e Web.</a></li>
-  <li><a href="#">Orientação a Objetos com PHP: Classes, Métodos e Atributos.</a></li>
+  <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/README.md">Orientação a Objetos com PHP: Classes, Métodos e Atributos.</a></li>
 </ol>
