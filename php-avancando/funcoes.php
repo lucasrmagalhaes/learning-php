@@ -27,6 +27,7 @@ function depositar(array $conta, float $valorADepositar) : array
     return $conta;
 }
 
+/** https://www.php.net/manual/pt_BR/book.mbstring.php */
 function titularComLetrasMaiusculas (array &$conta) 
 {
     $conta['titular'] = mb_strtoupper($conta['titular']);

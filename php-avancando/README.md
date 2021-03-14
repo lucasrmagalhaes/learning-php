@@ -37,6 +37,7 @@
   <summary><strong>Referências e Mais Listas</strong></summary>
   <br/>
   <ul>
-    <li><a href="#">#</a></li>
-    <li><a href="#">#</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/funcoes.php">mb_strtoupper e lower</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/banco.php">List</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/banco.php">Unset</a></li>
 </details>

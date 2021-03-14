@@ -38,12 +38,18 @@ $contasCorrentes['123.456.789-11'] = depositar(
     1000
 );
 
+/** unset - remove variáveis da memória */
+unset($contasCorrentes['123.453.242-342']);
+
 titularComLetrasMaiusculas($contasCorrentes['111.222.333-12']);
 
 titularComLetrasMinusculas($contasCorrentes['123.456.789-11']);
 
 foreach ($contasCorrentes as $cpf => $conta) {
+    /** list - forma elegante de pegar os dados do array */
+    ['titular' => $titular, 'saldo' => $saldo] = $conta;
+
     exibirMensagem(
-        "CPF: $cpf | Titular: {$conta['titular']} | Saldo: {$conta['saldo']}"
+        "$cpf $titular $saldo"
     );   
 }
