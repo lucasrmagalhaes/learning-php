@@ -1,31 +1,12 @@
 <?php
 
-function exibirMensagem(string $mensagem)
-{        
-    echo $mensagem . PHP_EOL;
-}
+/**
+ * include - arquivo opcional
+ * require - arquivo obrigatório 
+ * require_once - faz a verificação se já existe e segue sendo obrigatório
+ */
 
-function sacar(array $conta, float $valorASacar) : array 
-{
-    if ($valorASacar > $conta['saldo']) {
-        exibirMensagem("Você não pode sacar!");
-    } else {
-        $conta['saldo'] -= $valorASacar;
-    }
-
-    return $conta;
-}
-
-function depositar(array $conta, float $valorADepositar) : array 
-{
-    if ($valorADepositar > 0) {
-        $conta['saldo'] += $valorADepositar;
-    } else {
-        exibirMensagem("Informe um valor positivo.");
-    }
-
-    return $conta;
-}
+require_once 'funcoes.php'; 
 
 $contasCorrentes = [
     '111.222.333-12' => [
@@ -56,6 +37,6 @@ $contasCorrentes['123.456.789-11'] = depositar(
 
 foreach ($contasCorrentes as $cpf => $conta) {
     exibirMensagem(
-        "$cpf {$conta['titular']} {$conta['saldo']}"
+        "CPF: $cpf | Titular: {$conta['titular']} | Saldo: {$conta['saldo']}"
     );   
 }
