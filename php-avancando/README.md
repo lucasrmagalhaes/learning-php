@@ -12,10 +12,10 @@
   <summary><strong>Arrays Associativos</strong></summary>
   <br/>
   <ul>
-    <li><a href="#">Várias Informações</a></li>
-    <li><a href="#">Foreach</a></li>
-    <li><a href="#">Adicionando Dados</a></li>
-    <li><a href="#">Tipos nas Chaves</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/contas-correntes.php">Várias Informações</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/foreach.php">Foreach</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/adicionando-dados.php">Adicionando Dados</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/tipos-chaves.php">Tipos nas Chaves</a></li>
 </details>
 
 <details>
