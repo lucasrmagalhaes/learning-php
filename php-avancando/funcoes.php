@@ -1,14 +1,14 @@
 <?php
 
-function exibirMensagem(string $mensagem)
+function exibeMensagem(string $mensagem)
 {        
-    echo $mensagem . PHP_EOL;
+    echo $mensagem . '<br>';
 }
 
 function sacar(array $conta, float $valorASacar) : array 
 {
     if ($valorASacar > $conta['saldo']) {
-        exibirMensagem("Você não pode sacar!");
+        exiberMensagem("Você não pode sacar!");
     } else {
         $conta['saldo'] -= $valorASacar;
     }
@@ -21,7 +21,7 @@ function depositar(array $conta, float $valorADepositar) : array
     if ($valorADepositar > 0) {
         $conta['saldo'] += $valorADepositar;
     } else {
-        exibirMensagem("Informe um valor positivo.");
+        exibeMensagem("Informe um valor positivo.");
     }
 
     return $conta;
@@ -36,4 +36,15 @@ function titularComLetrasMaiusculas (array &$conta)
 function titularComLetrasMinusculas (array &$conta) 
 {
     $conta['titular'] = mb_strtolower($conta['titular']);
+}
+
+function exibeConta(array $conta) 
+{
+
+    ['titular' => $titular, 'saldo' => $saldo] = $conta;
+
+    echo " 
+        <li>Titular: $titular</li>
+        <li>Saldo: $saldo</li><br />
+    ";
 }

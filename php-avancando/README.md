@@ -53,6 +53,6 @@
   <ul>
     <li><strong>Rodando o localhost: </strong>php -S  localhost:8080</li>
     <li><strong>Abre uma nova aba, mostrando o código fonte: </strong>Ctrl + U</li>
-    <li><a href="#">#</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/banco.php">HTML e PHP</a></li>
   </ul>
 </details>
