@@ -32,3 +32,11 @@
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/banco.php">Banco</a></li>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-avancando/funcoes.php">Funções</a></li>
 </details>
+
+<details>
+  <summary><strong>Referências e Mais Listas</strong></summary>
+  <br/>
+  <ul>
+    <li><a href="#">#</a></li>
+    <li><a href="#">#</a></li>
+</details>

@@ -1,10 +1,13 @@
 <?php
 
 /**
- * include - arquivo opcional
- * require - arquivo obrigatório 
- * require_once - faz a verificação se já existe e segue sendo obrigatório
- */
+* include - não dá erro (apenas avisa) se o arquivo não existe,
+* require - dá erro
+* require_once - garante que o arquivo será incluído apenas uma vez
+
+* E_NOTICE, PHP dá um aviso mas "se vira" e continua com a execução
+* E_ERROR, PHP dá erro e para a execução do programa
+*/
 
 require_once 'funcoes.php'; 
 
@@ -34,6 +37,10 @@ $contasCorrentes['123.456.789-11'] = depositar(
     $contasCorrentes['123.456.789-11'], 
     1000
 );
+
+titularComLetrasMaiusculas($contasCorrentes['111.222.333-12']);
+
+titularComLetrasMinusculas($contasCorrentes['123.456.789-11']);
 
 foreach ($contasCorrentes as $cpf => $conta) {
     exibirMensagem(
