@@ -4,7 +4,7 @@
   <summary><strong>Problemas da Programação Procedural</strong></summary>
   <br/>
   <ul>
-    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/src/conta.php">Definição explícita de dados</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/conta-old.php">Definição explícita de dados</a></li>
   </ul>
 </details>
 
@@ -12,7 +12,7 @@
   <summary><strong>Introdução à Orientação a Objetos</strong></summary>
   <br/>
   <ul>
-    <li><a href="#">#</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/src/conta.php">Introdução</a></li>
   </ul>
   <p align="justify">
     Classe é a forma de bolo. Objeto é o bolo em si. Quando criamos uma variável a partir de uma classe, estamos criando um objeto, e a classe é apenas o tipo deste objeto.
