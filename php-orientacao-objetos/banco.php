@@ -4,7 +4,9 @@ require_once 'src/Conta.php';
 
 $primeiraConta = new Conta();
 
-$primeiraConta->depositar(500);
-$primeiraConta->sacar(200);
+$primeiraConta->deposita(500);
+$primeiraConta->saca(300);
+$primeiraConta->defineCpfTitular('033.871.800-12');
 
-echo $primeiraConta->saldo;
+echo $primeiraConta->recuperaSaldo();
+echo $primeiraConta->recuperaCpfTitular();
