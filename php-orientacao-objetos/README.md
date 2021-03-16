@@ -53,6 +53,14 @@ var_dump($segundaConta); // Note que este objeto possui os valores da segunda co
   <summary><strong>Protegendo os Nossos Dados</strong></summary>
   <br/>
   <ul>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/src/conta.php">Encapsulamento</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><strong>Mais Sobre Métodos</strong></summary>
+  <br/>
+  <ul>
     <li><a href="#">#</a></li>
   </ul>
 </details>
