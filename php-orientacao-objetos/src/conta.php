@@ -2,19 +2,14 @@
 
 class Conta
 {
-    private string $cpfTitular;
-    private string $nomeTitular;
     private float $saldo;
-    
+    private Titular $titular;
     private static int $numeroDeContas = 0;
 
-    public function __construct(string $cpfTitular, string $nomeTitular)
+    public function __construct(Titular $titular)
     {
-        $this->cpfTitular = $cpfTitular;
-        $this->nomeTitular = $nomeTitular;
+        $this->titular = $titular;
         $this->saldo = 0;
-
-        $this->validaNomeTitular($nomeTitular);
         
         self::$numeroDeContas++;
     }
@@ -24,19 +19,19 @@ class Conta
         self::$numeroDeContas--;
     }
     
-    public function recuperaCpfTitular(): string
-    {
-        return $this->cpfTitular;
-    }
-    
-    public function recuperaNomeTitular(): string
-    {
-        return $this->nomeTitular;
-    }
-    
     public function recuperaSaldo(): float
     {
         return $this->saldo;
+    }
+
+    public function recuperaNomeTitular(): string
+    {
+        return $this->titular->recuperaNome();
+    }
+
+    public function recuperaCpfTitular(): string
+    {
+        return $this->titular->recuperaCpf();
     }
     
     public function saca(float $valorASacar): void
@@ -68,14 +63,6 @@ class Conta
         
         $this->saca($valorATransferir);
         $contaDestino->deposita($valorATransferir);
-    }
-
-    private function validaNomeTitular(string $nomeTitular) 
-    {
-        if (strlen($nomeTitular) < 3) {
-            echo "Nome precisa ter no minímo 3 caracteres!";
-            exit();
-        }
     }
 
     public static function recuperaNumeroDeContas(): int
