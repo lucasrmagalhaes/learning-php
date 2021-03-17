@@ -75,5 +75,6 @@ var_dump($segundaConta); // Note que este objeto possui os valores da segunda co
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/banco.php">Banco</a></li>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/src/conta.php">Conta</a></li>
     <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/src/Titular.php">classe Titular</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/src/CPF.php">Validação do CPF</a></li>
   </ul>
 </details>
