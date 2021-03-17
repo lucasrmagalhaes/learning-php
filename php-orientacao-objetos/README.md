@@ -60,7 +60,9 @@ var_dump($segundaConta); // Note que este objeto possui os valores da segunda co
 <details>
   <summary><strong>Mais Sobre Métodos</strong></summary>
   <br/>
+  <p align="left">Método Construtor, privado e destrutor, e membros estáticos.
   <ul>
-    <li><a href="#">#</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/banco.php">Banco</a></li>
+    <li><a href="https://github.com/lucasrmagalhaes/learning-php/blob/main/php-orientacao-objetos/src/conta.php">Conta</a></li>
   </ul>
 </details>
