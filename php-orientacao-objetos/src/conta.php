@@ -18,6 +18,11 @@ class Conta
         
         self::$numeroDeContas++;
     }
+
+    public function __destruct()
+    {
+        self::$numeroDeContas--;
+    }
     
     public function recuperaCpfTitular(): string
     {

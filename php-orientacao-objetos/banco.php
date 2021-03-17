@@ -15,3 +15,5 @@ $segundaConta = new Conta('333.888.800-11', 'Bia');
 var_dump($segundaConta);
 
 echo Conta::recuperaNumeroDeContas();
+
+$terceiraConta = new Conta('333.888.800-11', 'Carla');
