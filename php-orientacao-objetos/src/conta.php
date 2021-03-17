@@ -11,6 +11,8 @@ class Conta
         $this->cpfTitular = $cpfTitular;
         $this->nomeTitular = $nomeTitular;
         $this->saldo = 0;
+
+        $this->validaNomeTitular($nomeTitular);
     }
     
     public function recuperaCpfTitular(): string
@@ -57,5 +59,13 @@ class Conta
         
         $this->saca($valorATransferir);
         $contaDestino->deposita($valorATransferir);
+    }
+
+    private function validaNomeTitular(string $nomeTitular) 
+    {
+        if (strlen($nomeTitular) < 3) {
+            echo "Nome precisa ter no minímo 3 caracteres!";
+            exit();
+        }
     }
 }  

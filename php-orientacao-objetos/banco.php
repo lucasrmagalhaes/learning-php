@@ -10,3 +10,7 @@ $primeiraConta->saca(300);
 echo $primeiraConta->recuperaCpfTitular() . PHP_EOL;
 echo $primeiraConta->recuperaNomeTitular() . PHP_EOL;
 echo $primeiraConta->recuperaSaldo() . PHP_EOL;
+
+$segundaConta = new Conta('333.888.800-11', 'Ba');
+
+var_dump($segundaConta);
