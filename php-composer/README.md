@@ -18,5 +18,15 @@ mv composer.phar /usr/local/bin/composer
 composer init
 ```
 
+Use as seguinte informações:
+- Package Name: seu-nickname/buscador-cursos
+- Description: Projeto que busca cursos no site da alura
+- Author: Seu Nome
+- Minimum Stability: deixa em branco
+- Package Type: library
+- License: deixa em branco
+
 **O que é o Vendor Name no nome do pacote distribuído com Composer?**
 - É o nome da pessoa ou companhia que distribui o pacote.
+
+[Packagist](https://packagist.org/)
