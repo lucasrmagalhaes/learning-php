@@ -1,5 +1,5 @@
 {
-    "name": "lucasrmagalhaes/buscador-cursos-alura",
+    "name": "lucasrmagalhaes/buscador-cursos",
     "description": "Projeto que busca os cursos no site da Alura.",
     "type": "library",
     "license": "MIT",
