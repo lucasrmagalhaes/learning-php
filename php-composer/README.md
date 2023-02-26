@@ -30,3 +30,15 @@ Use as seguinte informações:
 - É o nome da pessoa ou companhia que distribui o pacote.
 
 [Packagist](https://packagist.org/)
+
+```
+composer require guzzlehttp/guzzle
+```
+
+```
+composer install
+```
+
+```
+composer update
+```
