@@ -17,3 +17,6 @@ mv composer.phar /usr/local/bin/composer
 ```
 composer init
 ```
+
+**O que é o Vendor Name no nome do pacote distribuído com Composer?**
+- É o nome da pessoa ou companhia que distribui o pacote.
