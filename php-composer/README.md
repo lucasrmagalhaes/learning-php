@@ -64,3 +64,9 @@ composer require symfony/css-selector
     - Levando em consideração que Alura\Namespace\Padrao está mapeado para /src/php/code, a classe Alura\Namespace\Padrao\Helper\ClasseHelper deve estar no caminho /src/php/code/Helper/ClasseHelper.php.
 - Um vendor namespace (namespace raiz ou padrão) deve ser mapeado para uma pasta base da aplicação
     - Sempre precisa haver um mapeamento entre um namespace raiz para uma pasta base. Ex.: Todas as classes e namespaces que tiverem no namespace Alura\Namespace\Padrao poderão ser encontrados na pasta /src/php/code.
+
+**Configurando a PSR-4**
+```
+composer dumpautoload
+composer dump-autoload
+```
