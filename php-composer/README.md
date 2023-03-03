@@ -107,3 +107,16 @@ composer install --no-dev
 ```
 vendor\bin\phpunit tests\TestBuscadorDeCursos.php
 ```
+
+**Instalando o PHPCS**
+```
+composer require --dev squizlabs/php_codesniffer
+```
+
+```
+vendor\bin\phpcs --help
+```
+
+```
+vendor\bin\phpcs --standard=PSR12 src\
+```
