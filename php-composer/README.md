@@ -58,15 +58,19 @@ composer require symfony/css-selector
 [PHP-FIG](https://www.php-fig.org/)
 
 **Quais os principais pontos da PSR-4?**
-- Todos os arquivos devem ter como seu nome o nome da classe contida nele e a extensão .php
-    - A classe Teste deve estar no arquivo chamado Teste.php, por exemplo.
+- Todos os arquivos devem ter como seu nome o nome da classe contida nele e a extensão ```.php```
+    - A classe Teste deve estar no arquivo chamado ```Teste.php```, por exemplo.
 - Cada um dos namespaces após o vendor namespace deve ser mapeados para uma estrutura de diretórios
-    - Levando em consideração que Alura\Namespace\Padrao está mapeado para /src/php/code, a classe Alura\Namespace\Padrao\Helper\ClasseHelper deve estar no caminho /src/php/code/Helper/ClasseHelper.php.
+    - Levando em consideração que ```Alura\Namespace\Padrao``` está mapeado para ```/src/php/code```, a classe ```Alura\Namespace\Padrao\Helper\ClasseHelper``` deve estar no caminho ```/src/php/code/Helper/ClasseHelper.php```.
 - Um vendor namespace (namespace raiz ou padrão) deve ser mapeado para uma pasta base da aplicação
-    - Sempre precisa haver um mapeamento entre um namespace raiz para uma pasta base. Ex.: Todas as classes e namespaces que tiverem no namespace Alura\Namespace\Padrao poderão ser encontrados na pasta /src/php/code.
+    - Sempre precisa haver um mapeamento entre um namespace raiz para uma pasta base. Ex.: Todas as classes e namespaces que tiverem no namespace Alura\Namespace\Padrao poderão ser encontrados na pasta ```/src/php/code```.
 
 **Configurando a PSR-4**
 ```
 composer dumpautoload
 composer dump-autoload
 ```
+
+**O que é necessário para configurar a PSR-4 em nosso projeto, levando em consideração que nossa estrutura de arquivos já atende seus requisitos?**
+- Basta adicionar na chave psr-4 filha da chave autoload a chave contendo nosso vendor namespace e o valor contendo nossa pasta base
+    - Exemplo: ```{ “autoload”: { “psr-4”: { “Alura\\Namespace\\Padrao\\”: “src/php/code/” } } }```
