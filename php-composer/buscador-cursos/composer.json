@@ -45,6 +45,7 @@
             "@test"
         ]
     },
+    
     "scripts-descriptions": {
         "check": "Roda as verificações do código. PHAN, PHPCS e PHPUNIT."
     }

@@ -1,3 +1,5 @@
+#!/usr/bin/env php
+
 <?php
 
 require 'vendor/autoload.php';
@@ -12,8 +14,9 @@ $client = new Client([ 'base_uri' => 'https://www.alura.com.br/', 'verify' => fa
 $crawler = new Crawler();
 
 $buscardor = new Buscador($client, $crawler);
+
 $cursos = $buscardor->buscar('/cursos-online-programacao/php');
 
 foreach ($cursos as $curso) {
-    echo exibeMensagem($curso);
+    exibeMensagem($curso);
 }

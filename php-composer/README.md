@@ -152,3 +152,8 @@ composer phan
 ```
 git tag -a v1.0.0
 ```
+
+**Bin (Bin)**
+```
+vendor\bin\buscar-cursos.php.bat
+```
