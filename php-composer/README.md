@@ -102,3 +102,8 @@ composer install --no-dev
 **Onde ficam os arquivos executáveis que o Composer traz com os pacotes?**
 - Na pasta bin dentro da pasta vendor
     - O Composer organiza muito bem a pasta vendor e dentro dela há uma pasta chamada bin. Nesta ficam todos os arquivos executáveis que nossas dependências possam fornecer. O exemplo utilizado na aula foi a ferramenta de testes PHPUnit.
+
+**Escrevendo um teste**
+```
+vendor\bin\phpunit tests\TestBuscadorDeCursos.php
+```
