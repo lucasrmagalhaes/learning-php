@@ -131,3 +131,10 @@ composer require --dev phan/phan
 ```
 vendor\bin\phan --allow-polyfill-parser src\Buscador.php
 ```
+
+**Scripts no JSON**
+```
+composer test
+composer cs
+composer phan
+```
