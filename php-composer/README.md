@@ -83,3 +83,8 @@ composer dump-autoload
 ```
 composer list
 ```
+
+**É muito comum trabalharmos em projetos legados que não implementam a PSR-4 em sua estrutura de arquivos.** <br />
+**Qual a solução que o Composer nos entrega para conseguirmos utilizar um autoload nesses casos?**
+- Classmap
+    - Com a chave classmap conseguimos informar arquivos que contenham classes para que o Composer as encontre mesmo que não sigam a PSR-4.
