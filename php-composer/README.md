@@ -54,3 +54,13 @@ composer require symfony/css-selector
 **Autoload**
 - Carregar o código responsável por realizar o autoload de classes
 - Neste arquivo, o Composer faz o trabalho necessário para definir um autoload de classes de forma que seja possível utilizar as dependências sem incluir seus arquivos separadamente. Falaremos mais sobre autoload durante este treinamento.
+
+[PHP-FIG](https://www.php-fig.org/)
+
+**Quais os principais pontos da PSR-4?**
+- Todos os arquivos devem ter como seu nome o nome da classe contida nele e a extensão .php
+    - A classe Teste deve estar no arquivo chamado Teste.php, por exemplo.
+- Cada um dos namespaces após o vendor namespace deve ser mapeados para uma estrutura de diretórios
+    - Levando em consideração que Alura\Namespace\Padrao está mapeado para /src/php/code, a classe Alura\Namespace\Padrao\Helper\ClasseHelper deve estar no caminho /src/php/code/Helper/ClasseHelper.php.
+- Um vendor namespace (namespace raiz ou padrão) deve ser mapeado para uma pasta base da aplicação
+    - Sempre precisa haver um mapeamento entre um namespace raiz para uma pasta base. Ex.: Todas as classes e namespaces que tiverem no namespace Alura\Namespace\Padrao poderão ser encontrados na pasta /src/php/code.

@@ -3,7 +3,7 @@
 require 'vendor/autoload.php';
 require 'src/Buscador.php';
 
-use Alura\BuscadorDeCursos\Buscador;
+use LucasRMagalhaes\BuscadorDeCursos\Buscador;
 use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
