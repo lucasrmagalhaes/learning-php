@@ -46,3 +46,7 @@ composer update
 **Como posso instalar um pacote utilizando o Composer?**
 - Executando o comando composer require ```<pacote>```
 - Adicionando no item require do ```composer.json``` e executando o comando composer update
+
+```
+composer require symfony/css-selector
+```
