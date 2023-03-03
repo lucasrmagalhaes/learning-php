@@ -120,3 +120,5 @@ vendor\bin\phpcs --help
 ```
 vendor\bin\phpcs --standard=PSR12 src\
 ```
+
+[PSR 12](https://www.php-fig.org/psr/psr-12/)
