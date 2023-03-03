@@ -74,3 +74,12 @@ composer dump-autoload
 **O que é necessário para configurar a PSR-4 em nosso projeto, levando em consideração que nossa estrutura de arquivos já atende seus requisitos?**
 - Basta adicionar na chave psr-4 filha da chave autoload a chave contendo nosso vendor namespace e o valor contendo nossa pasta base
     - Exemplo: ```{ “autoload”: { “psr-4”: { “Alura\\Namespace\\Padrao\\”: “src/php/code/” } } }```
+
+**Classmap e Files**
+```
+"classmap": ["./Teste.php"],
+```
+
+```
+composer list
+```
