@@ -157,3 +157,6 @@ git tag -a v1.0.0
 ```
 vendor\bin\buscar-cursos.php.bat
 ```
+
+**O que é necessário fazer para que nosso arquivo seja disponibilizado na pasta vendor/bin?**
+- Informar o caminho do arquivo na entrada bin do nosso composer.json
