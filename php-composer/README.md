@@ -50,3 +50,7 @@ composer update
 ```
 composer require symfony/css-selector
 ```
+
+**Autoload**
+- Carregar o código responsável por realizar o autoload de classes
+- Neste arquivo, o Composer faz o trabalho necessário para definir um autoload de classes de forma que seja possível utilizar as dependências sem incluir seus arquivos separadamente. Falaremos mais sobre autoload durante este treinamento.
