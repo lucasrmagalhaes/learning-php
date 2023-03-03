@@ -122,3 +122,12 @@ vendor\bin\phpcs --standard=PSR12 src\
 ```
 
 [PSR 12](https://www.php-fig.org/psr/psr-12/)
+
+**Instalando o Phan**
+```
+composer require --dev phan/phan
+```
+
+```
+vendor\bin\phan --allow-polyfill-parser src\Buscador.php
+```
