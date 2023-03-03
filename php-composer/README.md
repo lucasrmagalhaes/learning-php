@@ -147,3 +147,8 @@ composer phan
 - Comandos do sistema operacional
 
 [Scripts - Composer](https://getcomposer.org/doc/articles/scripts.md)
+
+**Versionamento**
+```
+git tag -a v1.0.0
+```
