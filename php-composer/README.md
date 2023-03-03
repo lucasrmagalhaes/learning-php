@@ -88,3 +88,13 @@ composer list
 **Qual a solução que o Composer nos entrega para conseguirmos utilizar um autoload nesses casos?**
 - Classmap
     - Com a chave classmap conseguimos informar arquivos que contenham classes para que o Composer as encontre mesmo que não sigam a PSR-4.
+
+**Instalando PHPUnit**
+```
+composer require --dev phpunit/phpunit
+```
+
+Servidor
+```
+composer install --no-dev
+```
