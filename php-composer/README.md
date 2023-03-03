@@ -141,3 +141,7 @@ composer phan
 
 **Scripts compostos**
 - Possibilidade de configurarmos um processo de build com um único comando
+
+**O que o Composer consegue executar através de seus scripts?**
+- Códigos em PHP
+- Comandos do sistema operacional
