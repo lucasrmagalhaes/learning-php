@@ -138,3 +138,6 @@ composer test
 composer cs
 composer phan
 ```
+
+**Scripts compostos**
+- Possibilidade de configurarmos um processo de build com um único comando
