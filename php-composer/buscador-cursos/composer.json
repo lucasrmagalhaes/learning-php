@@ -40,6 +40,9 @@
             "@phan",
             "@cs",
             "@test"
+        ],
+        "post-update-cmd": [
+            "@test"
         ]
     },
     "scripts-descriptions": {

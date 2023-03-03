@@ -145,3 +145,5 @@ composer phan
 **O que o Composer consegue executar através de seus scripts?**
 - Códigos em PHP
 - Comandos do sistema operacional
+
+[Scripts - Composer](https://getcomposer.org/doc/articles/scripts.md)
